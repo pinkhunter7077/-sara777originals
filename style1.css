@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    /* background-image: url(../images/bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+}
+.main_container {
+
+    background: #fff;
+    max-width: 450px;
+    margin: auto;
+    padding: 15px 15px;
+
+}
+.coin div:last-child {
+    padding-right: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 8px 8px 0 15px; */
+}
+.logo{
+    
+        color: #5f6368;
+        fill: rgb(95,99,104);
+        stop-color: rgb(95,99,104);
+        line-height: 1.75rem;
+        font-size: 1.375rem;
+        letter-spacing: 0;
+        font-weight:500;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        margin: 0 10px;
+        white-space: nowrap;
+        z-index: 1;
+    
+}
+.coin{
+    display: flex;
+    padding:0 10px;
+}
+.coin div{
+    padding:0 10px;
+}
+
+.mx-details{
+    padding-left: 12px;
+}
+.mx-details h2{
+font-weight:500;
+align-items: flex-end;
+display: flex;
+overflow-wrap: anywhere;
+width: 100%;
+word-break: keep-all;
+margin-bottom: 5;
+font-size: 21px;
+}
+.mx-details h3{
+    color:#01875f;
+    font-size: 16px;
+    font-weight: 500;
+    }
+.mx-details p{
+        color:#5f6368;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        }
+        
+.logoapp{
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    border-radius: 10px;
+}
+
+
+.logoapp img{
+    max-width: 100%;
+}
+.ratingdwon
+{
+    font-size: 14px;
+    color: #202124;
+}
+.ratingdwon .smalltxt{
+    font-size: 12px;
+    color: #5f6368;
+}
+
+a.install {
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+    height: 36px;
+    margin: 6px 0;
+    min-height: 36px;
+    min-width: 160px;
+    padding: 8px 16px;
+    background: #0b56d1;
+    width: 100%;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+}
+
+.share{
+    color:#01875f;
+    text-decoration: none;
+    font-size: 14px;
+}
+.addwish{
+    color: #9aa0a6;
+    text-decoration: none;
+    font-size: 14px;
+}
+.desktopnot{
+    font-size: 14px;
+    color: #5f6368;
+}
+.aboutapp h2 {
+    color: #202124;
+    font-size: 18px;
+}
+.aboutapp h4 {
+    color: #202124;
+    font-size: 14px;
+}
+.aboutapp p {
+    color: #5f6368;
+    font-size: 14px;
+}
+.aboutapp a {
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #5f6368;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 50px;
+    margin: 8px;
+}
+.textinner{
+    font-size: 14px;
+    font-weight: 500;
+}
+.textinner a{
+    color: #5f6368;
+    font-size: 12px;
+    font-weight: 400;
+}
+.textinner span{
+    font-size: 12px;
+    color: #5f6368; font-weight: 400;
+}
+.main-box {
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    margin-top: 30px;
+    padding: 20px 20px 0;
+}
+.seedetails{
+    color: #01875f !important;
+    font-weight: 500 !important;
+    text-decoration: none;
+
+}
